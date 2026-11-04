@@ -1,13 +1,16 @@
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
 
 function App() {
   return (
     <>
       <Navbar />
       <main>
-        <section id="home" style={{ minHeight: '100vh', paddingTop: '90px' }}>Home</section>
-        <section id="about" style={{ minHeight: '100vh', paddingTop: '90px' }}>About</section>
-        <section id="skills" style={{ minHeight: '100vh', paddingTop: '90px' }}>Skills</section>
+        <Hero />
+        <About />
+        <Skills />
         <section id="projects" style={{ minHeight: '100vh', paddingTop: '90px' }}>Projects</section>
         <section id="contact" style={{ minHeight: '100vh', paddingTop: '90px' }}>Contact</section>
       </main>
